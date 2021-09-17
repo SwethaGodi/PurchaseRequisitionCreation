@@ -1,0 +1,66 @@
+{
+  "name": "Singleline_PurchaseRequsition",
+  "description": "Blank Process",
+  "main": "Main.xaml",
+  "dependencies": {
+    "Library-Concur-SAP-WD-DocuSign": "[1.0.17]",
+    "UiPath.Excel.Activities": "[2.9.3]",
+    "UiPath.Mail.Activities": "[1.9.3]",
+    "UiPath.System.Activities": "[20.10.1]",
+    "UiPath.Testing.Activities": "[1.3.3]",
+    "UiPath.UIAutomation.Activities": "[20.10.8]"
+  },
+  "webServices": [],
+  "entitiesStores": [],
+  "schemaVersion": "4.0",
+  "studioVersion": "20.10.2.0",
+  "projectVersion": "1.0.4",
+  "runtimeOptions": {
+    "autoDispose": false,
+    "isPausable": true,
+    "requiresUserInteraction": true,
+    "supportsPersistence": false,
+    "excludedLoggedData": [
+      "Private:*",
+      "*password*"
+    ],
+    "executionType": "Workflow",
+    "readyForPiP": false,
+    "startsInPiP": false
+  },
+  "designOptions": {
+    "projectProfile": "Developement",
+    "outputType": "Process",
+    "libraryOptions": {
+      "includeOriginalXaml": false,
+      "privateWorkflows": []
+    },
+    "processOptions": {
+      "ignoredFiles": []
+    },
+    "fileInfoCollection": [
+      {
+        "editingStatus": "Publishable",
+        "testCaseId": "a8f831d5-30bd-4933-af0b-273a6fab2d31",
+        "dataVariationFilePath": ".variations\\TestData_Sheet1.json",
+        "fileName": "Singleline_PurchaseRequsition.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7b3b6163-0654-449d-a1b0-5980f6b94527",
+        "fileName": "Singleline_PurchaseRequsition.xaml"
+      },
+      {
+        "editingStatus": "InProgress",
+        "testCaseId": "7fc12fb7-c4a1-471f-b89d-0fbd0e6f9e59",
+        "dataVariationFilePath": "",
+        "fileName": "TestCase.xaml"
+      }
+    ],
+    "modernBehavior": false
+  },
+  "expressionLanguage": "VisualBasic",
+  "isTemplate": false,
+  "templateProjectData": {},
+  "publishData": {}
+}
